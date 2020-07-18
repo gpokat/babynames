@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+
+    <script type="text/javascript" src=wiki_request.js>  </script>
+    <script type="text/javascript" src=D:/workspace/babynames/chartjs_lib/node_modules/chart.js/dist/Chart.js>  </script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body onload="RequestNameList();">
+    <p style="text-align:center;">In this page you could find a given <b>male</b> name statistics accordingly to the <b>English</b> Wikipedia data</p>
+
+    <div id="c1" style="width:50%; float:left; display: inline-block; ">
+        <canvas id="dage" style="position: relative; height:200vh; width:200vw"></canvas>
+    </div>
+
+    <div id="c2" style="width:50%; float:right; display: inline-block;">
+        <canvas id="docc" style="position: relative; height:200vh; width:200vw"></canvas>
+    </div>
+
+
+</body>
+
+</html>
